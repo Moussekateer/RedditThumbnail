@@ -15,6 +15,6 @@ $wgExtensionCredits['other'][] = array(
 $wgHooks['OutputPageBeforeHTML'][] = 'wfAddRedditMetaTag';
  
 function wfAddRedditMetaTag( &$out, &$text ) {
-  $out->addMeta( 'og:image', 'http://wiki.teamfortress.com/w/images/c/c9/Logo.png' );
+  $out->addMeta( 'og:image', 'http://wiki.teamfortress.com/w/images/3/3f/Reddit_thumbnail.png' );
   return true;
 }
